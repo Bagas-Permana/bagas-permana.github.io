@@ -171,12 +171,19 @@ body .navbar .btn-github {
   color: blue;
 }
 
-.dowload-content .download-btn {
+.dowload-content {
   margin-top: 5rem;
+  text-align: center; /* Ini untuk menjaga agar judul tetap di tengah */
+}
+
+.dowload-content .title-container {
+  margin-bottom: 1rem; /* Menambahkan sedikit jarak antara judul dan tombol */
+}
+
+.dowload-content .download-btn {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  justify-content: center; /* Menyusun tombol secara horizontal dan di tengah */
+  gap: 10px; /* Menambahkan jarak antar tombol */
 }
 
 .dowload-content .btn {
@@ -188,7 +195,6 @@ body .navbar .btn-github {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
   cursor: pointer;
   border-radius: 4px;
 }
@@ -292,12 +298,12 @@ body .navbar .btn-github {
     background-color: #0eb7b6;
     border: none;
     color: white;
-    padding: 10px 13px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 1px 1px;
     cursor: pointer;
     border-radius: 4px;
   }
